@@ -271,9 +271,12 @@ ALTER TABLE ONLY public.star ALTER COLUMN star_id SET DEFAULT nextval('public.st
 -- Data for Name: galaxy; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.galaxy VALUES (1, NULL, NULL, 'Andromeda', NULL, NULL);
-INSERT INTO public.galaxy VALUES (2, NULL, NULL, 'Centaurus A', NULL, NULL);
-INSERT INTO public.galaxy VALUES (3, NULL, NULL, 'Eye of Sauron', NULL, NULL);
+INSERT INTO public.galaxy VALUES (1, NULL, NULL, 'Andromeda', 100, NULL);
+INSERT INTO public.galaxy VALUES (2, NULL, NULL, 'Centaurus A', 100, NULL);
+INSERT INTO public.galaxy VALUES (3, NULL, NULL, 'Eye of Sauron', 100, NULL);
+INSERT INTO public.galaxy VALUES (4, NULL, NULL, 'Godzilla', 100, NULL);
+INSERT INTO public.galaxy VALUES (5, NULL, NULL, 'Malin 1', 100, NULL);
+INSERT INTO public.galaxy VALUES (6, NULL, NULL, 'Medusa Merger', 100, NULL);
 
 
 --
@@ -306,6 +309,9 @@ INSERT INTO public.moon VALUES (20, 'Hydra', NULL, NULL, NULL, 10);
 -- Data for Name: more_info; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
+INSERT INTO public.more_info VALUES (1, NULL, 'info1', NULL, 'source1');
+INSERT INTO public.more_info VALUES (2, NULL, 'info2', NULL, 'source2');
+INSERT INTO public.more_info VALUES (3, NULL, 'info3', NULL, 'source3');
 
 
 --
